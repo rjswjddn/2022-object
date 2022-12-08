@@ -3,7 +3,7 @@ import java.util.*;
 
 public class Seafood implements Food{
 	
-	// 평가항목 7번 컬렉션 프레임워크
+	// 주석 7: 컬렉션 프레임워크
 	Set<String> set = new HashSet<>();
 	
 	// 생성자

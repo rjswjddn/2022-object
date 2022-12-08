@@ -1,6 +1,6 @@
 package object201900530;
 
-// 평가항목 3번 인터페이스
+// 주석 3: 인터페이스
 public interface MenuInterface {
 	
 	// 메뉴를 출력하는 메소드

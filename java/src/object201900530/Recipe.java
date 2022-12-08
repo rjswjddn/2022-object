@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Recipe{
 	
-	//평가항목 8번 파일 입/출력 사용
+	//주석 8: 파일 입/출력 사용
 	File dir = new File("./recipe");
 	// 메뉴를 출력하는 메소드
 	public void openMenu() {

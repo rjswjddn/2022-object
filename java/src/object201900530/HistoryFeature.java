@@ -1,6 +1,6 @@
 package object201900530;
 
-// 평가항목 2번 클래스상속
+// 주석 2: 클래스상속
 public class HistoryFeature extends MainMenu{
 	// 메뉴를 출력하는 메소드
 	public void openMenu() {
@@ -51,7 +51,7 @@ public class HistoryFeature extends MainMenu{
 		else if(menu.equals("뒤로") || menu.equals("3")) {
 			System.out.println("메인메뉴로 이동합니다.");
 		}
-		// 메뉴에 업슨ㄴ 것을 고르면 openMenu실행
+		// 메뉴에 없는 것을 고르면 openMenu실행
 		else {
 			System.out.println("목록에 존재하지 않습니다. 다시 입력해주세요.");
 			openMenu();

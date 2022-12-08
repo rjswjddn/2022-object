@@ -2,7 +2,7 @@ package object201900530;
 
 import java.util.Scanner;
 
-//평가항목 3번 인터페이스 사용
+//주석 3: 인터페이스 사용
 public class MainMenu implements MenuInterface {
 	// 메뉴의 객체 생성 역사와특징, 종류, 레시피 순
 	//HistoryFeature HF = new HistoryFeature();

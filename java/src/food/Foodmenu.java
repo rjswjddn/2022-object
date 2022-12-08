@@ -3,18 +3,18 @@ package food;
 import java.util.Scanner;
 
 public class Foodmenu {
-	// 평가항목 6번 참조 타입(배열)
+	// 주석 6: 참조 타입(배열)
 	// 음식의 종류가 들어있는 배열
 	public String foodType[] = {"Meat", "Seafood", "Soup"};
 	
-	// 평가항목 5번 다형성
+	// 주석 5: 다형성
 	// TypeOfFood에서 요청한 음식종류 음식이름을 출력한다.
 	public void print(Food food) {
 		food.printFood();
 	}
 	
 	
-	// 평가항목 5번 다형성
+	// 주석 5: 다형성
 	// TypeOfFood에서 요청한 음식종류에 음식이름을 추가한다.
 	public void addFood(Food food) {
 		

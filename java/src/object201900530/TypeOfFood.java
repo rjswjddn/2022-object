@@ -36,8 +36,9 @@ public class TypeOfFood {
 		int menuNum;
 		String menuName;
 		
+		
+		// 주석 4: 예외처리
 		while(true) {
-			// 평가항목 4번 예외처리
 			// 목록의 번호를 입력받는다.
 			// int가 아닌 자료형이 입력되면 예외처리한다.
 			// 1~4가 아닌 다른 정수가 입력되면 예외처리한다.
