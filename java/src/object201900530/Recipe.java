@@ -23,7 +23,15 @@ public class Recipe{
 		Scanner sc = new Scanner(System.in);
 		String yn = sc.nextLine();
 		
+		//Y이면 종료, N이면 그대로 진행, 그 외는 다시 입력받기
 		if(yn.equals("Y")) {
+			return;
+		}
+		else if (yn.equals("N")){
+		}
+		else {
+			System.out.println("Y나 N을 입력해주세요...");
+			openMenu();
 			return;
 		}
 		
@@ -48,8 +56,11 @@ public class Recipe{
 			String recipefile = foodname + ".txt";
 			goMenu(recipefile);
 		}
-
+		else {
+			System.out.println("Y나 N을 입력해주세요...");
+		}
 		openMenu();
+		return;
 	}
 	
 	
